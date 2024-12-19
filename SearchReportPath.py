@@ -1,10 +1,9 @@
 import requests
 
 # Global Variables
-username = 'SRVICBO'
-password = 'Srvicbo' 
-URL = 'http://boprd-app01.apps.pradagroup.net/'#'http://botst01.apps.pradagroup.net/' #'http://boprd-app01.apps.pradagroup.net/'
-
+username = 'test'
+password = 'test' 
+URL = 'http://boprd-app01.apps.TEST.net/'
 #### Functions 
 def login(URL,headers):
     print("Getting token...")
