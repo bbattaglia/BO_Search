@@ -2,9 +2,9 @@ import requests
 import xlsxwriter
 
 # Global Variables
-username = 'SRVICBO'
-password = 'Srvicbo' 
-URL = 'http://botst01.apps.pradagroup.net/' #'http://boprd-app01.apps.pradagroup.net/'
+username = 'test'
+password = 'test' 
+URL = 'http://botst01.apps.TEST.net/' 
 
 #### Functions 
 def login(URL,headers):
